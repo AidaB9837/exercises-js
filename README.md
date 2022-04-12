@@ -1,1 +1,1 @@
-# exercises-js
+This Repo contains JS Exercises
