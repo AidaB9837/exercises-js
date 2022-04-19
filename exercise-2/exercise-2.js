@@ -8,7 +8,7 @@ function canPlay() {
   personName += ' plays football';
 
 
-  console.log(personName.readOnly=true);
+  console.log(personName);
 }
 
 canPlay();
