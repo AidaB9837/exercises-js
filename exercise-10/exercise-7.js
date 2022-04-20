@@ -1,13 +1,11 @@
-function sumUntil(maxValue) {
+ function sumUntil(maxValue) {
 
-  let numbers = [1, 2, 3, 4, 5];
+   let sum = 0;
 
-  let result = numbers.reduce((sum, current) => sum + current, 0);
-
- for(let i = 0; i <=5; i++) {
-    return result
+  for(let i = 1; i <=maxValue; i++) {
+    sum +=i
+  }
+  return sum
  }
 
-}
-
-console.log(sumUntil(5));
+ console.log(sumUntil(5));
