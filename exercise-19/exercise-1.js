@@ -10,3 +10,8 @@ person2.firstName = 'Simon';
 
 console.log(person1);
 console.log(person2);
+
+/*Modificando l'oggetto `person2` viene modificato
+anche l'oggetto `person1` poichè 
+person2 è strettamente legato a person1,
+quindi non sono due costanti distinte e separate*/
